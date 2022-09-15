@@ -1,7 +1,7 @@
 # RPN Kata
 
-Hexagonal bank kata
-[Requirements can be foud here](https://en.wikipedia.org/wiki/Reverse_Polish_notation#Practical_implications
+Implementing the Kata using a **Hexagonal Architecture**
+[Requirements](https://en.wikipedia.org/wiki/Reverse_Polish_notation#Practical_implications
 )
 
 ## How to launch you dev environment
