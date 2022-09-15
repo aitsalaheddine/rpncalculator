@@ -44,4 +44,9 @@ public class CalculatorAdapter implements CalculatorPort {
     public void calculate(Integer id, String op) throws StackNotFoundException {
         rpnCalculator.calculate(id, OperatorEnum.valueOfOperator(op));
     }
+
+    @Override
+    public void clear() {
+        rpnCalculator.getAllStacks().clear();
+    }
 }

@@ -20,9 +20,10 @@ public interface CalculatorPort {
 
     void calculate(Integer id, String value) throws StackNotFoundException;
 
+    void clear();
+
     default List<OperatorEnum> getOperations() {
         return OperatorEnum.getOperations();
     }
 
-    ;
 }

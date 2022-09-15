@@ -1,6 +1,7 @@
 package com.cacib.domain.model;
 
 import com.cacib.domain.model.exception.StackNotFoundException;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -65,5 +66,10 @@ class RpnCalculatorTest {
         underTest.calculate(1, OperatorEnum.ADDITION);
 
         assertThat(underTest.getStack(1).pull()).isEqualTo(15);
+    }
+
+    @AfterEach
+    void tearDown() {
+        underTest.deleteStack(1);
     }
 }
