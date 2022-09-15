@@ -14,10 +14,6 @@ A java compatible ide of your choosing
 
 ### Rest API
 
-Create an .env file following the example in rest/src/main/resources,
-and the .env-* files in the deployment/dev-env-rest folder
-then you have two options :
-
 - Run as a docker container
 ````
 docker build -t rpn-app .
