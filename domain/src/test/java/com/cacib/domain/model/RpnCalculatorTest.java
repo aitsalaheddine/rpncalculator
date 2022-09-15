@@ -1,6 +1,6 @@
 package com.cacib.domain.model;
 
-import com.cacib.domain.port.exception.StackNotFoundException;
+import com.cacib.domain.model.exception.StackNotFoundException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

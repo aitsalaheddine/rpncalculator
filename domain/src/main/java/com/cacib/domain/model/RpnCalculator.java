@@ -1,6 +1,6 @@
 package com.cacib.domain.model;
 
-import com.cacib.domain.port.exception.StackNotFoundException;
+import com.cacib.domain.model.exception.StackNotFoundException;
 
 import java.util.HashMap;
 import java.util.function.IntBinaryOperator;
